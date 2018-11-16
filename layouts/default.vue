@@ -20,11 +20,21 @@
           <span/>
         </div>
       </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+          <a class="navbar-item">
+            About Me
+          </a>
+        </div>
+      </div>
     </nav>
 
     <section class="main-content columns">
 
-      <aside class="column is-2 section">
+      <aside class="column is-3 section">
         <p class="menu-label is-hidden-touch">General</p>
         <ul class="menu-list">
           <li
@@ -39,11 +49,14 @@
         </ul>
       </aside>
 
-      <div class="container column is-10">
+      <div class="container column is-9">
         <nuxt />
       </div>
 
-    </section>
+    </section>  
+    <footer>
+      <h1 >Test Footer</h1>
+    </footer>
   </div>
 </template>
 
@@ -53,7 +66,8 @@ export default {
     return {
       items: [
         { title: 'Home', icon: 'home', to: { name: 'index' } },
-        { title: 'Inspire', icon: 'lightbulb', to: { name: 'inspire' } }
+        { title: 'Inspire', icon: 'lightbulb', to: { name: 'inspire' } },
+        { title: 'Slides', icon: 'lightbulb', to: { name: 'slides' } }
       ]
     }
   }

@@ -33,12 +33,13 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vue-awesome-swiper'
   ],
 
   /*
   ** Nuxt.js modules
   */
-  modules: [,
+  modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy'
   ],
